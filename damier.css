@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    background-color: saddlebrown;
+}
+
+.damier {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 0;
+    border: 5px solid gray;
+}
+
+.case {
+    width: 50px;
+    height: 50px;
+}
+
+.noire {
+    background-color: black;
+}
+
+.blanche {
+    background-color: white;
+}
