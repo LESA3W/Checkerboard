@@ -15,7 +15,9 @@
 
       for ($l = 0; $l < $lines; $l++) {
           for ($c = 0; $c < $columns; $c++) {
-              // Alternance entre "noire" et "blanche"
+
+            
+              // Alterner entre case noire et blanche
               $class = (($l + $c) % 2 == 0) ? 'noire' : 'blanche';
               echo '<div class="case ' . $class . '"></div>';
           }
@@ -25,4 +27,5 @@ echo '</div>';
 
 
   </body>
+
 </html>
